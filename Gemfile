@@ -54,6 +54,12 @@ group :development, :test do
 
   # rspec testing framwork
   gem 'rspec-rails', '~> 7.1'
+
+  # clean database after test
+  gem 'database_cleaner-active_record', '~> 2.2'
+
+  # Create bots for testing
+  gem 'factory_bot_rails', '~> 6.4', '>= 6.4.4'
 end
 
 group :development do
